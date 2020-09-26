@@ -8,7 +8,8 @@
 systems without having to depending on the individual plugin them self,
 PocketVault attempts to solve to simplify the process for both the user and the developer.
 
-######Retrieves someones balance using the PocketVault economy provider API
+
+Retrieves someones balance using the PocketVault economy provider API
 ```
 // Get an instance of the PocketVault
 $vault = PocketVault::getInstance();
@@ -20,7 +21,7 @@ $money = $vault->getProviderManager()->getProvider(ProviderName::ECONOMY)->getBa
 
 /**
 * This is just something basic, something more advance would include checking if the server
-* have a economy plugin registered, if not, yield something else.
+* have a economy plugin registered/if it's enabled or not, if not, yield something else.
 */
 ```
 

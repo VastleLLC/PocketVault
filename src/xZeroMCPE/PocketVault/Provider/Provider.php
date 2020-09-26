@@ -17,6 +17,7 @@ class Provider
 {
 
     public $name;
+    public $enabled = true;
 
     /**
      * @return string
@@ -32,6 +33,22 @@ class Provider
     public function setName(string $name): void
     {
         $this->name = $name;
+    }
+
+    /**
+     * @return bool
+     */
+    public function isEnabled(): bool
+    {
+        return $this->enabled;
+    }
+
+    /**
+     * @param bool $enabled
+     */
+    public function setEnabled(bool $enabled): void
+    {
+        $this->enabled = $enabled;
     }
 
     /**

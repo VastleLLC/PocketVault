@@ -57,6 +57,6 @@ class ProviderManager
         if(!$this->hasProvider($name)) {
             return null;
         }
-        return $this->getProvider($name);
+        return $this->providers[$name];
     }
 }
