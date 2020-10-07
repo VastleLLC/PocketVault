@@ -26,4 +26,4 @@ $money = $vault->getProviderManager()->getProvider(ProviderName::ECONOMY)->getBa
 ```
 
 ## Other
-You can check out the Wiki for more information how to implement PocketVault into your plugin
+You can check out the <a href="https://github.com/xZeroMCPE/PocketVault/wiki">WIKI</a> for more information how to implement PocketVault into your plugin
